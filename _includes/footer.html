@@ -1,4 +1,4 @@
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
-</div>
 
+<div class="page__footer-copyright">
+  &copy; {{ 'now' | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>
+</div>
