@@ -1,43 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "white"
+minimal_mistakes_skin: "air"
 
-# Site Settings
-locale                   : "ko-KR"
-title                    : "基憶"
-title_separator          : "-"
-subtitle                 : "기억 속에서 사라져가는 국가유산을 간직하는 장소"
-name                     : "30419 김하연 | 30518 김서연"
-description              : "대충 글 내용 들어갈 곳"
-copyright                : "30419 김하연 | 30518 김서연"
+title: "基憶"
+subtitle: "기억 속에서 사라져가는 국가유산을 간직하는 장소"
+name: "30419 김하연 | 30518 김서연"
+description: "사라져가는 국가유산을 기록합니다."
+copyright: "30419 김하연 | 30518 김서연"
 
-# Site Author
+# 사이드바/댓글/공유 비활성화
 author:
-  name             : "Your Name"
-  bio              : "사라져가는 국가유산을 기록합니다."
+  name: "기억 프로젝트"
   links: 
 
-# Site Footer
 footer:
   links:
   since: "2026"
 
-# Defaults
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
       comments: false
       share: false
       related: false
