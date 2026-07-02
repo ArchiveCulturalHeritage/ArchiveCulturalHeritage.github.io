@@ -15,23 +15,23 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
 title                    : "基憶"
 title_separator          : "-"
 subtitle                 : "기억 속에서 사라져가는 국가유산을 간직하는 장소" # site tagline that appears below site title in masthead
 name                     : "30419 김하연 |    30518 김서연"
 description              : "An amazing website."
-url                      : "https://ArchiveCulturalHeritage.github.io" # the base hostname & protocol for your site e.g. "https://ArchiveCulturalHeritage.github.io"
-baseurl                  : "/archive" # the subpath of your site, e.g. "/blog"
-repository               : "ArchiveCulturalHeritage/ArchiveCulturalHeritagegithub.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : # the base hostname & protocol for your site e.g. "https://ArchiveCulturalHeritage.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : "30419 김하연 |    30518 김서연" # "copyright" name, defaults to site.title
+copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
