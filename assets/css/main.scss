@@ -6,8 +6,8 @@ search: false
 @charset "utf-8";
 
 @font-face {
-    font-family: 'HsSaemaul';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSSaemaul-Regular.woff') format('woff');
+    font-family: 'KblJump';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-5@1.0/KBLJump_RTTF.woff2') format('woff2');
     font-weight: normal;
     font-display: swap;
 }
@@ -16,5 +16,5 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 body, h1, h2, h3, h4, h5, h6, .site-title, .author__name, .author__avatar, .author__bio, .page__title {
-  font-family: 'HsSaemaul', sans-serif !important;
+  font-family: 'KblJump', sans-serif !important;
 }
