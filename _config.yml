@@ -114,9 +114,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "基憶; 기억 프로젝트"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "基憶 ; 터 기. 추억할 억 |
+                      기억 프로젝트는 옛 터를 추억하자는 의미를 담고 있습니다.
+                      
+                      조지 버클리는 Esse est percipi 라는 원리를 주장했습니다.
+                      이는 지각되지 않는 사물은 존재하지 않는다라는 명제로 요약됩니다.
+                      저희는 이 명제를 기반으로 잊혀져가고 있는 국가유산이 그 존재 자체를 위협받지 않기를 바랬습니다.
+                      그래서 지금은 훼손되어 실재하지 않지만, 분명히 존재했었던 소중한 국가유산들을 디지털로 복원하고 이를 아카이빙하는 프로젝트를 시작하게 되었습니다."
   # location         : "Somewhere"
   email            :
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
