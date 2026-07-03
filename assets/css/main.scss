@@ -17,7 +17,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 /* 2. 사이트 전체 폰트 적용 */
-body, h1, h2, h3, h4, h5, h6, .site-title, .author__name, .page__title {
+body, h1, h2, h3, h4, h5, h6, .site-title, .author__name, .author__avatar, .author__bio, .page__title {
   font-family: 'HsSaemaul', sans-serif !important;
 }
 
