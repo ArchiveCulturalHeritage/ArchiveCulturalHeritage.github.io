@@ -17,12 +17,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
-title                    : "Site Title"
+title                    : "基憶"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "기억 속에서 사라져가는 국가유산을 간직하는 장소" # site tagline that appears below site title in masthead
+# name                     : "30419 김하연 |    30518 김서연"
+# description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://ArchiveCulturalHeritage.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -31,7 +31,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
+copyright                : "基憶; 기억 프로젝트. archive by. 30419 김하연 & 30518 김서연" # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -89,80 +89,89 @@ yandex_site_verification :
 baidu_site_verification  :
 
 # Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-og_image_alt             : # Alt text for Open Graph/Twitter default site image
+# twitter:
+# username               :
+# facebook:
+# username               :
+# app_id                 :
+# publisher              :
+# og_image                 : # Open Graph/Twitter default site image
+# og_image_alt             : # Alt text for Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+# social:
+# type                   : # Person or Organization (defaults to Person)
+# name                   : # If the user or organization name differs from the site's name
+# links: # An array of links to social media profiles
 
 # Analytics
-analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+# analytics:
+# provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+# google:
+# tracking_id          :
+# anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "基憶 ; 기억 프로젝트"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "基憶 ; 터 기. 추억할 억 <br>
+                      기억 프로젝트는 옛 터를 추억하자는 <br> 의미를 담고 있습니다. <br>
+                      <br>
+                      <br>
+                      𝘌𝘴𝘴𝘦 𝘦𝘴𝘵 𝘱𝘦𝘳𝘤𝘪𝘱𝘪 <br>
+                      지각되지 않는 사물은 존재하지 않는다. <br>
+                      <br>
+                      저희는 조지 버클리의 명제를 바탕으로 <br> 잊혀져가고 있는 국가유산이 존재 자체를 <br> 더이상 위협받지 않기를 바랬습니다. <br>
+                      <br>
+                      그래서 지금은 훼손되어 실재하지 않지만, <br> 분명히 존재했었던 소중한 국가유산들을 <br> 디지털로 복원하고 이를 아카이빙하는 <br> 해당 프로젝트를 시작하게 되었습니다."
+  # location         : "Somewhere"
+  # email            :
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
+  # links:
+    # - label: "Email"
+      # icon: "fas fa-fw fa-square-envelope"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    # - label: "Website"
+      # icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
+    # - label: "Twitter"
+      # icon: "fab fa-fw fa-square-x-twitter"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-square-facebook"
+    # - label: "Facebook"
+      # icon: "fab fa-fw fa-square-facebook"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    # - label: "GitHub"
+      # icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    # - label: "Instagram"
+      # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
+# footer:
+  # links:
+    # - label: "Twitter"
+      # icon: "fab fa-fw fa-square-x-twitter"
       # url:
       # rel: "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
-    - label: "Facebook"
-      icon: "fab fa-fw fa-square-facebook"
+    # - label: "Facebook"
+      # icon: "fab fa-fw fa-square-facebook"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    # - label: "GitHub"
+      # icon: "fab fa-fw fa-github"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    # - label: "GitLab"
+      # icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+    # - label: "Bitbucket"
+      # icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    # - label: "Instagram"
+      # icon: "fab fa-fw fa-instagram"
       # url:
-  since: "2013"
+  # since: "2013"
 
 
 # Reading Files
@@ -327,8 +336,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
 

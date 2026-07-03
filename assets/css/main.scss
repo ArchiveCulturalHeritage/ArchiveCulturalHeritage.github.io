@@ -5,5 +5,16 @@ search: false
 
 @charset "utf-8";
 
+@font-face {
+    font-family: 'KblJump';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-5@1.0/KBLJump_RTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+body, h1, h2, h3, h4, h5, h6, .site-title, .author__name, .author__avatar, .author__bio, .page__title {
+  font-family: 'KblJump', sans-serif !important;
+}
