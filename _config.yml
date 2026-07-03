@@ -31,7 +31,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : "基憶; 기억 프로젝트. | 
+copyright                : "基憶; 기억 프로젝트. <br>
                             by. 30419 김하연 & 30518 김서연" # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
