@@ -20,8 +20,8 @@ direction                : # "ltr" (default), "rtl" # set the direction of the p
 title                    : "基憶"
 title_separator          : "-"
 subtitle                 : "기억 속에서 사라져가는 국가유산을 간직하는 장소" # site tagline that appears below site title in masthead
-name                     : "30419 김하연 |    30518 김서연"
-description              : "An amazing website."
+# name                     : "30419 김하연 |    30518 김서연"
+# description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://ArchiveCulturalHeritage.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -31,7 +31,8 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : "基憶; 기억 프로젝트. | by. 30419 김하연 & 30518 김서연" # "copyright" name, defaults to site.title
+copyright                : "基憶; 기억 프로젝트. | 
+                            by. 30419 김하연 & 30518 김서연" # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -118,7 +119,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "基憶 ; 터 기. 추억할 억 |
                       기억 프로젝트는 옛 터를 추억하자는 의미를 담고 있습니다.
-                      
+                      -
                       조지 버클리는 Esse est percipi 라는 원리를 주장했습니다.
                       이는 지각되지 않는 사물은 존재하지 않는다라는 명제로 요약됩니다.
                       저희는 이 명제를 기반으로 잊혀져가고 있는 국가유산이 그 존재 자체를 위협받지 않기를 바랬습니다.
