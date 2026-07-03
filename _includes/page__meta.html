@@ -1,12 +1,12 @@
 {% assign locale = include.locale | default: site.locale %}
 {% assign document = post | default: page %}
 {% if document.read_time or document.show_date %}
-  <p class="page__meta">
+  <!-- font-size로 크기 조절, color: #888로 회색 처리, text-align으로 좌측 정렬 -->
+  <div class="page__meta" style="text-align: left; font-size: 0.7em; color: #888;">
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
       <span class="page__meta-date">
-        <i class="far {% if include.type == 'grid' and document.read_time and document.show_date %}fa-fw {% endif %}fa-calendar-alt" aria-hidden="true"></i>
-        {% assign date_format = document.date_format | default: site.date_format | default: "%B %-d, %Y" %}
+        {% assign date_format = "%Y.%m.%d" %}
         <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
       </span>
     {% endif %}
@@ -28,5 +28,5 @@
         {% endif %}
       </span>
     {% endif %}
-  </p>
+  </div>
 {% endif %}
